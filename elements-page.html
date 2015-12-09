@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<link rel="stylesheet" type="text/css" href="B-B_styles/style.css" type="text/css"/>
+</head>
+<body >
+	<h1>Ésta es la muestra de los elementos que conforman los estilos generales</h1>
+
+	<a href="">Anchor</a>
+	<button type="button" onclick="alert('Hello world!')">Click Me!</button>
+	
+	<h2>Inputs</h2>
+	<!-- Text -->
+	<form action="">
+	  Username: <input type="text" name="usrname"><br>
+	  <input type="submit" value="Submit">
+	</form>
+	<!-- Button -->
+	<form>
+	  <input type="button" value="Click me" onclick="msg()">
+	</form>
+	<!-- Checks -->
+	<form action="">
+	  <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+	  <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
+	  <input type="checkbox" name="vehicle3" value="Boat"> I have a boat<br>
+	  <input type="submit" value="Submit">
+	</form>
+	<!-- Color Picker -->
+	<form action="">
+	  Select your favorite color: <input type="color" name="favcolor"><br>
+	  <input type="submit">
+	</form>
+	<!-- Date -->
+	<form action="">
+	  Birthday: <input type="date" name="bday">
+	  <input type="submit">
+	</form>
+	<!-- Date-time -->
+	<form action="">
+	  Birthday (date and time): <input type="datetime-local" name="bdaytime">
+	  <input type="submit">
+	</form>
+	<!-- Month-year -->
+	<form action="">
+	  Birthday (month and year): <input type="month" name="bdaymonth">
+	  <input type="submit">
+	</form>
+	<!-- File -->
+	<form action="">
+	  Select a file: <input type="file" name="img">
+	  <input type="submit">
+	</form>
+	<!-- Image-btn -->
+	<form action="">
+	  First name: <input type="text" name="fname"><br>
+	  Last name: <input type="text" name="lname"><br>
+	  <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+	</form>
+	<!-- Radio btns -->
+	<form action="">
+	  <input type="radio" name="gender" value="male"> Male<br>
+	  <input type="radio" name="gender" value="female"> Female<br>
+	  <input type="submit" value="Submit">
+	</form>
+	<!-- Range -->
+	<form action="">
+	Points: <input type="range" name="points" min="0" max="10">
+	<input type="submit">
+	</form>
+	<!-- Reset -->
+	<form action="demo_form.asp">
+	  Email: <input type="text" name="email"><br>
+	  Pin: <input type="text" name="pin" maxlength="4"><br>
+	  <input type="reset" value="Reset">
+	  <input type="submit" value="Submit">
+	</form>
+	<!-- Week -->
+	<form action="demo_form.asp">
+	  Select a week: <input type="week" name="year_week">
+	  <input type="submit">
+	</form>
+
+<script>
+function msg() {
+    alert("Hello world!");
+}
+</script>
+</body>
+</html>

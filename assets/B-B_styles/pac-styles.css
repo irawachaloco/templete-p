@@ -1,0 +1,15 @@
+.menu-item a,
+.footer-item a {
+	border: 1px solid;
+}
+
+.menu-wrapper {
+	position: fixed;
+	width: 100%;
+	z-index:2;
+}
+
+.pac-content-padding {
+    padding-top: 13.5em;
+    padding-bottom: 6em;
+}
